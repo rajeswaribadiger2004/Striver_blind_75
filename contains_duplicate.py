@@ -10,3 +10,11 @@ class Solution:
 
 # Time: O(n)
 # Space: O(n)
+
+# class Solution: → wrapper class (LeetCode requires it).
+# def containsDuplicate(self, nums: list[int]) -> bool: → function that returns True/False.
+# seen = set() → keeps track of unique numbers.
+# Loop through nums:
+# If number already in seen → return True (duplicate found).
+# Else → add it to seen.
+# If loop ends → return False (no duplicates).
